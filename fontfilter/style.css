@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+h1{
+    width: 300px;
+    color: white;
+    background-color: #525252;
+    padding: 10px 0px 10px 20px;
+}
+#txt{
+    position: absolute;
+}
+#ol1{
+    margin-top: 50px;
+    left: 34.5%;
+    position: absolute;
+    width: 150px;
+}
+li:hover{
+    transition: 0.8s;
+    background-color: rgb(168, 63, 238);
+    color: white;
+}
+li{
+    border-radius: 10px;
+    padding: 3px;
+}
+ol{
+    display: inline-block;
+}
+#ol2{
+    width: 150px;
+    float: right;
+}
+#txt1{
+    position: absolute;
+    top: 17.5%;
+}
+#hr{
+    margin-top: 42px
+}
+#i1{
+    float: right;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: rgb(168, 63, 238);
+    border-radius: 3px;
+}
